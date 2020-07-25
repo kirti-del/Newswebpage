@@ -1,0 +1,68 @@
+.main-brand{
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Great Vibes",cursive;
+    margin: 60px 0;
+}
+.story-image{
+    width: 100%;
+}
+.story-title{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+.story-text{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+}
+.story{
+    border: 1px solid #333;
+    padding: 5px;
+}
+.quarter{
+    width: 25%;
+}
+.half{
+    width: 50%;
+}
+.three-quarter{
+    width: 75%;
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #555;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+}
+.nav-item:nth-child(1){ background-color: wheat;}
+.nav-item:nth-child(2){ background-color: pink;}
+.nav-item:nth-child(3){ background-color: turquoise;}
+.nav-item:nth-child(4){ background-color: rgb(45, 216, 173);}
+.nav-item:nth-child(5){ background-color: violet;}
